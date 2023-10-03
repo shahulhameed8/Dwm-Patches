@@ -1,4 +1,4 @@
-#Patches
+# Patches
 There are two types of patches: The ones that fit to your personal taste and the ones you think should be included in mainline.
 
 For patches that fit your personal taste and you want to share with the community, please follow the instructions on the wiki page on how to edit the pages you see here.
@@ -9,7 +9,7 @@ Please provide a clear concise "commit message" for your patches.
 
 The following instructions are a general guide on how to generate and apply patches posted on this wiki:
 
-patch filename format
+# patch filename format
 The expected format for patches is:
 
 For git revisions:
@@ -25,7 +25,7 @@ toolname-patchname-RELEASE.diff
 dwm-allyourbase-6.1.diff
 The RELEASE should correspond to the tool release version, ie 6.1 for dwm-6.1.
 
-diff generation
+# diff generation
 For git users:
 
 cd program-directory
@@ -39,7 +39,7 @@ diff -up original-program-directory modified-program-directory > \
            toolname-patchname-RELEASE.diff
 Don't push multiple commits patchsets. A single patch should apply all changes using patch -p1.
 
-patch program
+# patch program
 For git users, use -3 to fix the conflict easily:
 
 cd program-directory
