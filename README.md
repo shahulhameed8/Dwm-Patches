@@ -1,4 +1,4 @@
-Patches
+#Patches
 There are two types of patches: The ones that fit to your personal taste and the ones you think should be included in mainline.
 
 For patches that fit your personal taste and you want to share with the community, please follow the instructions on the wiki page on how to edit the pages you see here.
